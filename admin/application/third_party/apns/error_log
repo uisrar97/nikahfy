@@ -1,0 +1,20 @@
+[19-Feb-2018 20:30:13 Europe/Rome] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to read certificate file 'server_certificates_bundle_sandbox.pem'' in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php:89
+Stack trace:
+#0 /home4/sqcenter/public_html/apns/sample_push.php(35): ApnsPHP_Abstract->__construct(1, 'server_certific...')
+#1 {main}
+  thrown in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php on line 89
+[19-Feb-2018 20:41:02 Europe/Rome] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to read certificate file 'server_certificates_bundle_sandbox.pem'' in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php:89
+Stack trace:
+#0 /home4/sqcenter/public_html/apns/sample_push.php(35): ApnsPHP_Abstract->__construct(1, 'server_certific...')
+#1 {main}
+  thrown in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php on line 89
+[19-Feb-2018 20:43:56 Europe/Rome] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to read Certificate Authority file 'entrust_root_certification_authority.pem'' in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php:173
+Stack trace:
+#0 /home4/sqcenter/public_html/apns/sample_push.php(41): ApnsPHP_Abstract->setRootCertificationAuthority('entrust_root_ce...')
+#1 {main}
+  thrown in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php on line 173
+[19-Feb-2018 21:08:29 Europe/Rome] PHP Fatal error:  Uncaught exception 'ApnsPHP_Exception' with message 'Unable to read Certificate Authority file 'entrust_root_certification_authority.pem'' in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php:173
+Stack trace:
+#0 /home4/sqcenter/public_html/apns/sample_push.php(41): ApnsPHP_Abstract->setRootCertificationAuthority('entrust_root_ce...')
+#1 {main}
+  thrown in /home4/sqcenter/public_html/apns/ApnsPHP/Abstract.php on line 173

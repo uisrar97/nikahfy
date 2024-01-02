@@ -1,0 +1,38 @@
+{
+  "name": "heidelpay/heidelpay-php",
+  "description": "This is the php sdk to connect to the heidelpay rest api.",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Simon Gabriel",
+      "email": "development@heidelpay.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0.0|^7.1.0|^7.2.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5",
+    "codacy/coverage": "^1.4",
+    "friendsofphp/php-cs-fixer": "^2.0"
+  },
+  "suggest": {
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "heidelpayPHP\\": "src",
+      "heidelpayPHP\\examples\\": "examples"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "heidelpayPHP\\test\\": "test"
+    }
+  },
+  "support": {
+    "email": "support@heidelpay.com"
+  }
+}

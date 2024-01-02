@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<reportDefinition xmlns="https://adwords.google.com/api/adwords/cm/v201809/CampaignService?wsdl">
+  <selector>
+    <fields>CampaignId</fields>
+    <fields>AdGroupId</fields>
+    <fields>Impressions</fields>
+    <fields>Clicks</fields>
+    <fields>Cost</fields>
+    <predicates>
+      <field>AdGroupStatus</field>
+      <operator>IN</operator>
+      <values>ENABLED</values>
+      <values>PAUSED</values>
+    </predicates>
+  </selector>
+  <reportName>Custom Adgroup Performance Report</reportName>
+  <reportType>ADGROUP_PERFORMANCE_REPORT</reportType>
+  <dateRangeType>LAST_7_DAYS</dateRangeType>
+  <downloadFormat>CSV</downloadFormat>
+</reportDefinition>
